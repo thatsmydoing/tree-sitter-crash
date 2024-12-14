@@ -16,3 +16,9 @@ nesting is required to crash.
 
 Other things like doing a visual selection from an opening to a closing tag also
 seems to crash it.
+
+## Building tree-sitter-javascript
+
+On distros without a package for tree-sitter-javascript, it should be simple
+enough to build from source and then link `libtree-sitter-javascript.so` to
+`rtp/parser/javascript.so`
