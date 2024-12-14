@@ -3,7 +3,7 @@
 Steps:
 
 1. Ensure tree-sitter-javascript is installed
-2. Run `nvim -u init.lua test.js`
+2. Run `nvim --clean -u init.lua test.js`
 3. Scroll down the page
 
 This only crashes on ARM machines (a Macbook Air M2 in particular). On x86_64
